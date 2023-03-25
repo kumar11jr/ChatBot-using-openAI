@@ -19,7 +19,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   void initState() {
     super.initState();
-    _openAIService = OpenAIService('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');
+    _openAIService = OpenAIService('YOUR_API_KEY');
   }
 
   void _handleSubmitted(String text) async {
